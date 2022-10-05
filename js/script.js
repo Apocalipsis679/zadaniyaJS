@@ -50,3 +50,6 @@ let personalMovieDB = {
 // personalMovieDB.movies[c] = d;
 
 console.log(personalMovieDB);
+
+// проверка гита
+const
