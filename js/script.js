@@ -51,5 +51,3 @@ let personalMovieDB = {
 
 console.log(personalMovieDB);
 
-// проверка гита
-const
