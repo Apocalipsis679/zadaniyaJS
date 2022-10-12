@@ -23,7 +23,7 @@
 
 "use strict";
 
-let numberOfFilms = prompt("Сколько фильмов вы уже посмотрели?", "");
+let numberOfFilms = +prompt("Сколько фильмов вы уже посмотрели?", "");
 console.log(numberOfFilms);
 
 let personalMovieDB = {
@@ -66,3 +66,10 @@ if (personalMovieDB.count < 10) {
 // personalMovieDB.movies[c] = d;
 
 console.log(personalMovieDB);
+
+
+function convert (amount) {
+console.log(28 * amount);
+}
+
+convert(1200);
